@@ -65,7 +65,7 @@ templates:
     ignore_blank_results: true
     overlay:
       name: <<overlay_name>>
-      url: https://github.com/meisnate12/Plex-Meta-Manager-Configs/blob/master/PMM/overlays/images/raw/<<overlay>>
+      url: https://github.com/meisnate12/Plex-Meta-Manager-Configs/blob/master/PMM/overlays/images/raw/<<overlay>>.png
       group: streaming
       weight: <<weight>>
       horizontal_offset: <<horizontal_offset>>
