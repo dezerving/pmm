@@ -111,7 +111,7 @@ dynamic_collections:
       paramount: Paramount+
       peacock: Peacock
       amazon: Prime Video
-    title_format: <<key_name>> <<library_type>>s
+    title_format: <<key_name>>
     template_variables:
       use:
         hayu: show
