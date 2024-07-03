@@ -55,7 +55,7 @@
 #############################################################
 
 external_templates:
-  defaults: templates
+  default: templates
 
 templates:
   playlist:
