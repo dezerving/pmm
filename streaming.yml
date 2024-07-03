@@ -72,7 +72,7 @@
 #############################################################
 
 external_templates:
-  git: PMM/templates
+  defaults: templates
   template_variables:
     collection_section: "03"
 
