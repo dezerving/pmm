@@ -72,7 +72,7 @@
 #############################################################
 
 external_templates:
-  defaults: templates
+  default: templates
   template_variables:
     collection_section: "03"
 
