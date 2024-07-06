@@ -1,1 +1,19 @@
-
+#######################################################
+#                 Genre Collections                   #
+#######################################################
+templates:
+  Genre:
+    plex_search:
+      any:
+        genre: <<genre>>
+    smart_label: release.desc
+    sort_title: '!+07_<<collection_name>>'
+    sync_mode: sync
+    visible_home: true
+    visible_shared: true
+#    schedule: weekly(friday, monday)
+collections:
+  Thriller:
+    template: {name: Genre, genre: thriller}
+    summary: "Here is the current collection of Thriller movies on Plex."
+    url_poster: https://theposterdb.com/api/assets/69226
